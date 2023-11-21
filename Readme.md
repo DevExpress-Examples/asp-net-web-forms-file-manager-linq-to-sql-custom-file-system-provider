@@ -3,19 +3,20 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E2900)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
+
+# File Manager for ASP.NET Web Forms - How to implement a custom file system provider for LINQ to SQL data source
+
+This example demonstrates how to implement a custom file system provider that bounds [ASPxFileManager](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxFileManager) to a LINQ to SQL data source. The provider retrieves data from data context ( a `DbFileSystemDataContext`  object) connected to a database that contains file/folder structure and contents.
+
+To decrease the number of recursive LINQ to SQL queries, a folder list is cached in memory (see the `FolderCache` property and the `RefreshFolderCache` method). 
 
 * [LinqFileSystemProvider.cs](./CS/WebSite/App_Code/LinqFileSystemProvider.cs) (VB: [LinqFileSystemProvider.vb](./VB/WebSite/App_Code/LinqFileSystemProvider.vb))
-* **[Default.aspx](./CS/WebSite/Default.aspx) (VB: [Default.aspx](./VB/WebSite/Default.aspx))**
-* [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
-<!-- default file list end -->
-# ASPxFileManager - How to implement a LINQ to SQL based file system provider
+* [Default.aspx](./CS/WebSite/Default.aspx) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
 
+## Documentation
 
-<p>This example shows how to create a LINQ to SQL based file system provider for the <strong>ASPxFileManager</strong>. The provider retrieves data from DataContext connected to a database containing file/folder structure and contents. To improve performance, we do the following:</p><p>- Cache a folder list in memory to decrease the number of recursive LINQ to SQL queries made to a database (see the <strong>FolderCache</strong> property and the <strong>RefreshFolderCache</strong> method). </p><p>- Use delayed loading for the <strong>Data</strong> property mapped to a database field that stores file contents (the <strong>Delay Loaded</strong> property is set to True for this property in the <strong>DbFileSystemItem</strong> entity class).</p><p><strong>See </strong><strong>also:</strong><strong><br />
-</strong><a href="https://www.devexpress.com/Support/Center/p/E5024">E5024: ASPxFileManager - How to implement a List data bound custom file system provider</a></p>
+* [Custom File System Provider](https://docs.devexpress.com/AspNet/9907/components/file-management/file-manager/concepts/file-system-providers/custom-file-system-provider)
 
-<br/>
+## More Examples
 
-
+* [File Manager for ASP.NET Web Forms - How to implement a custom file system provider for List data source](https://github.com/DevExpress-Examples/asp-net-web-forms-filemanager-list-file-system-provider)
