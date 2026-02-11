@@ -24,7 +24,7 @@ To decrease the number of recursive LINQ to SQL queries, a folder list is cached
 
 * [File Manager for ASP.NET Web Forms - How to implement a custom file system provider for List data source](https://github.com/DevExpress-Examples/asp-net-web-forms-file-manager-list-custom-file-system-provider)
 <!-- feedback -->
-## Does This Example Address Your Development Requirements/Objectives?
+## Does this example address your development requirements/objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-file-manager-linq-to-sql-custom-file-system-provider&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-file-manager-linq-to-sql-custom-file-system-provider&~~~was_helpful=no)
 
